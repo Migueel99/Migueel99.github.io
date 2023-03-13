@@ -1,0 +1,48 @@
+html{
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30em;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  .form {
+    width: 450px;
+  }
+
+  .footer{
+    margin-top: auto;
+    clear: both;
+  }
+  .perfil{
+    overflow: hidden;
+  }
+  section{
+    overflow: hidden;
+  }
+
+  .card-border{
+    overflow: hidden;
+}
+.card-border:hover {
+  transform:  scale(1.02);
+  -webkit-transform:  scale(1.02);
+  -moz-transform:  scale(1.02);
+  -ms-transform:  scale(1.02);
+  -o-transform:  scale(1.02);
+}
+
+.tiendaFotos:hover{
+  transform:  scale(0.90);
+  -webkit-transform:  scale(0.90);
+  -moz-transform:  scale(0.90);
+  -ms-transform:  scale(0.90);
+  -o-transform:  scale(0.90);
+}

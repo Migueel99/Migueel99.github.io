@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <title>Aston Martin F1 Team</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="img/Aston-Martin-Logo.png">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/F1.svg.png" alt="logo" width="150" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link" href="tienda.html">Merchandising</a>
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link" href="vehiculo.html">Nuestro Coche</a>
+            </li>
+            <li class="nav-item dropdown ">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Usuarios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="login.html">Iniciar Sesión</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="registro.html">Registro</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="perfil.html">Perfil</a>
+                </li>
+               
+              </ul>
+              
+            </li>
+          </ul>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+          </form>
+        </div>
+        
+      </div>
+      
+    </nav>
+    <!-- CARRUSEL -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/1.jpg" class="d-block w-100" alt="AMR23 en pista" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/2.jpg" class="d-block w-100" alt="Alonso celebrando" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/3.jpg" class="d-block w-100" alt="AMR22" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- CONTENIDO -->
+    <div class="noticias">
+      <div class="container-md p-5">
+        <div class="row">
+          <h3 class="text-center py-5">Novedades sobre Aston Martin F1 Team. </h3>
+        </div>
+        <div class="row">
+          <div class="col-sm"> 
+            <div class="card w-100 card-border mb-5" >
+              <img src="img/alonsoystroll.jpg" class="card-img-top"  alt="Alonso y Stroll">
+              <div class="card-body">
+                <h4 class="card-title">Buena relación entre Alonso y Stroll.</h4>
+                <p class="card-text">La relación entre ambos pilotos no hace más que mejorar, muchos dudaban de que se llevasen bien, pero la actitud entre ambos es mejor día a día.</p>
+              </div>
+            </div>
+          </div> 
+          <div class="col-sm"> 
+            <div class="card w-100 card-border mb-5" >
+              <img src="img/copiaredbull.jpg" class="card-img-top"   alt="Redbull y Aston martin">
+              <div class="card-body">
+                <h4 class="card-title">Red Bull acusa a Aston Martin de copiar su auto.</h4>
+                <p class="card-text">Altos directivos de Red Bull acusan de copia al equipo Aston Martin por la similitud en los pontones de ambos coches. También sospechan ante la fuga de talento, como Dan Fallows.</p>
+              </div>
+            </div>
+          </div> 
+          <div class="col-sm"> 
+            <div class="card w-100 card-border " >
+              <img src="img/fernando-alonso-aston-martin-f.jpg" class="card-img-top"  alt="Alonso y Stroll">
+              <div class="card-body">
+                <h4 class="card-title">Alegría en el equipo Aston Martin.</h4>
+                <p class="card-text">Tras un inesperado rendimiento del AMR23, Fernando Alonso da la sorpresa con un podio en Bahrein, acompañado de los otros dos RedBull.</p>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="container mb-5">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/mdhzukIpi3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      </div>
+      </div>
+    </div>
+
+  <!-- FOOTER -->
+<footer class="footer mt-auto bg-dark text-white py-4">
+  <div class="container-fluid">
+    <nav class="row">
+      <a
+        href=""
+        class="col-3 text-reset text-uppercase d-flex align-items-center"
+      >
+        <img
+          src="img/f1-logo-big.png"
+          alt="logo"
+          class="img-logo me-2"
+          width="80"
+        />
+      </a>
+      <ul class="col-3 list-unstyled d-flex flex-column">
+        <li class="font-weight-bold  text-uppercase">más</li>
+        <li><a href="aboutus.html" class="text-reset">Sobre nosotros</a></li>
+        <li><a href="socios.html" class="text-reset">Socios</a></li>
+        <li><a href="privacidad.html" class="text-reset">Privacidad</a></li>
+        <li><a href="terminos.html" class="text-reset">Términos</a></li>
+      </ul>
+      <ul class="col-3 list-unstyled d-flex flex-column">
+        <li class="font-weight-bold text-center text-uppercase mb-2">
+          REDES
+        </li>
+        <li class="d-flex justify-content-between">
+          <a href="https://twitter.com/AstonMartinF1?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-reset"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.facebook.com/astonmartin/?locale=es_LA" class="text-reset"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.facebook.com/astonmartin/?locale=es_LA" class="text-reset"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.tiktok.com/@astonmartinf1?lang=es" class="text-reset"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+        </li>
+      </ul>
+      <div class="row justify-content-md-center py-1">
+        <div class="col text-center font-weight-light">
+          <p>© 2023 Aston Martin F1 Team. All rights reserved.</p>
+        </div>
+      </div>
+    </nav>
+  </div>
+</footer>
+  </body>
+</html>
